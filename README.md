@@ -12,24 +12,24 @@ No API key required. No rate limits. Just `curl` and go.
 
 ### Analyze any CSV/Excel file
 ```bash
-curl -X POST https://checklist-regions-joyce-percent.trycloudflare.com/api/analyze -F "file=@your_data.csv"
+curl -X POST https://somewhat-cosmetic-statewide-indication.trycloudflare.com/api/analyze -F "file=@your_data.csv"
 ```
 
 ### Scrape any website
 ```bash
-curl -X POST https://checklist-regions-joyce-percent.trycloudflare.com/api/scrape \
+curl -X POST https://somewhat-cosmetic-statewide-indication.trycloudflare.com/api/scrape \
   -H "Content-Type: application/json" \
   -d '{"url": "https://example.com", "extract": "tables"}'
 ```
 
 ### Convert between formats
 ```bash
-curl -X POST https://checklist-regions-joyce-percent.trycloudflare.com/api/convert -F "file=@data.csv" -F "to=excel"
+curl -X POST https://somewhat-cosmetic-statewide-indication.trycloudflare.com/api/convert -F "file=@data.csv" -F "to=excel"
 ```
 
 ### Try the demo
 ```bash
-curl https://checklist-regions-joyce-percent.trycloudflare.com/api/demo
+curl https://somewhat-cosmetic-statewide-indication.trycloudflare.com/api/demo
 ```
 
 ## 📦 What's Included
